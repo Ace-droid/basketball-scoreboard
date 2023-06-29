@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>BASKETBALL SCOREBOARD</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrap">
+        <div class="container">
+          <div class="score-container">
+            <h2 class="score-header">HOME</h2>
+            <div class="score-ash">
+              <p class="pts" id="home-pts">0</p>
+              <p class="pts-shadow">000</p>
+            </div>
+            <div class="btn-increment">
+              <button class="pts-inc +1pts" onclick="onePts()">+1</button>
+              <button class="pts-inc +2pts" onclick="twoPts()">+2</button>
+              <button class="pts-inc +3pts" onclick="threePts()">+3</button>
+            </div>
+          </div>
+          <div class="score-container">
+            <h2 class="score-header">GUEST</h2>
+            <div class="score-ash">
+              <p class="pts" id="guest-pts">0</p>
+              <p class="pts-shadow">000</p>
+            </div>
+            <div class="btn-increment">
+              <button class="pts-inc +1pts" onclick="onePoints()">+1</button>
+              <button class="pts-inc +2pts" onclick="twoPoints()">+2</button>
+              <button class="pts-inc +3pts" onclick="threePoints()">+3</button>
+            </div>
+          </div>
+        </div>
+        <div class="reset-container">
+          <button class="reset-btn" onclick="reset()">RESET</button>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
