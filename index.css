@@ -1,4 +1,8 @@
-
+@font-face{
+font-family: 'Digital Display';
+src: url('assets/Digital-Display.ttf') format('ttf');
+font-display: swap;
+}
 
 
 
