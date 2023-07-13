@@ -1,6 +1,7 @@
 @font-face{
 font-family: 'Digital Display';
-src: url('assets/Digital-Display.ttf') format('ttf');
+src: url('assets/Digital-Display.woff2') format('woff2'),
+url('assets/Digital-Display.woff2') format('woff');
 font-display: swap;
 }
 
